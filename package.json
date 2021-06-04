@@ -1,0 +1,24 @@
+{
+  "name": "react-ecommerce-site",
+  "version": "1.0.0",
+  "description": "React ECommerce Site",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-bootstrap": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YawTeh/ReactCommerceSite.git"
+  },
+  "author": "Yaw Teh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YawTeh/ReactCommerceSite/issues"
+  },
+  "homepage": "https://github.com/YawTeh/ReactCommerceSite#readme"
+}
