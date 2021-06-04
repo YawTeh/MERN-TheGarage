@@ -4,6 +4,7 @@
   "description": "React ECommerce Site",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "react-bootstrap": "^1.6.0"
   },
@@ -14,7 +15,7 @@
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
-    "client": "npm start --prefix frontend", 
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
