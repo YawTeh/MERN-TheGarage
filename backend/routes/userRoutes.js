@@ -12,7 +12,7 @@ const router = express.Router();
 router.route("/").post(registerUser);
 router.post("/login", authUser);
 router
-    .route("/profile")
+    .route('/profile')
     .get(protect, getUserProfile)
     .put(protect, updateUserProfile);
 
